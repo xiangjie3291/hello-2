@@ -1,4 +1,4 @@
 FROM openjdk:12
 WORKDIR /app/
-COPY src /app/src
+COPY ./* ./
 RUN javac App.java
